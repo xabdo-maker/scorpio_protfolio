@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(rgb(8, 8, 29),rgb(18, 18, 84));
+    height: 100vb;
+ overflow: hidden;
+
+}
+body:hover{
+    overflow-y: auto;
+}
+.nav-link:hover{
+    color: rgb(34, 34, 193) !important;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border: solid;
+    border-radius: 50%;
+    color: rgb(34, 34, 193) ;
+    
+}
+.section{
+    color: aliceblue;
+}
+.span{
+    color: rgb(34, 34, 193) ;
+}
+.button{
+    color: aliceblue;
+    background-color: rgb(34, 34, 193) ;
+}
+.sec{
+    background: linear-gradient(rgb(18, 18, 84),rgb(8, 8, 29));   
+}
