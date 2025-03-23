@@ -7,8 +7,15 @@ body{
 body:hover{
     overflow-y: auto;
 }
+::-webkit-scrollbar {
+    width: .1px; 
+  }
+.nav-link{
+    transition: transform 0.3s ease, color 0.3s ease;
+}
 .nav-link:hover{
     color: rgb(34, 34, 193) !important;
+    transform: scale(1.4);
 }
 .icon{
     width: 40px;
@@ -16,7 +23,12 @@ body:hover{
     border: solid;
     border-radius: 50%;
     color: rgb(34, 34, 193) ;
-    
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+.icon:hover{
+    transform: scale(1.4);
+    color:cyan ;
 }
 .section{
     color: aliceblue;
@@ -28,6 +40,20 @@ body:hover{
     color: aliceblue;
     background-color: rgb(34, 34, 193) ;
 }
-.sec{
-    background: linear-gradient(rgb(18, 18, 84),rgb(8, 8, 29));   
+.about{
+    background: linear-gradient(rgb(17, 0, 59),rgb(8, 8, 29));   
+}
+.services-content{
+    color: aliceblue;
+    background: rgba(255, 255, 255, .1);
+}
+.h2-head-services {
+    color: aliceblue;
+}
+.services-content {
+    transition: transform 0.3s ease, color 0.3s ease;
+   
+}
+.services-content:hover{
+    transform: scale(1.2);
 }

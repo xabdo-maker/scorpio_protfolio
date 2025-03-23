@@ -8,9 +8,12 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/StyleSheet.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script>
+    
     </head>
 <body >
-  <header class="overflow-hidden">
+  <header id="NET"  class="overflow-hidden">
   <nav class="navbar navbar-expand-lg  navbar-dark fixed-top ">
     <div class="container-fluid mb-5">
       <a class="navbar-brand ms-5 fw-bolder fs-3" href="#" >PORTFOLIO</a>
@@ -27,7 +30,7 @@
             <a class="nav-link" href="#About">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Protfolio</a>
@@ -50,10 +53,10 @@
         <p class="py-2">Passionate Frontend Developer seeking to enhance my Angular skills and build dynamic, responsive 
           web applications. Interested in improving user experience and creating modern, functional interfaces. </p>
          <div class="d-flex  gap-2 ">
-          <div class="icon d-flex justify-content-center align-items-center"> <i class="fab fa-facebook-f"></i></div>
-         <div class="icon d-flex justify-content-center align-items-center"> <i class="fab fa-instagram"></i></div>        
-         <div class="icon d-flex justify-content-center align-items-center"> <i class="fab fa-github"></i></div>
-         <div class="icon d-flex justify-content-center align-items-center"> <i class="fab fa-linkedin-in"></i></div>
+          <a href="https://www.facebook.com/share/1CJv2CEkCn/?mibextid=wwXIfr" class="icon d-flex justify-content-center align-items-center"> <i class="fab fa-facebook-f"></i></a>
+         <a href="https://www.instagram.com/abdo36.esmail/?" class="icon d-flex justify-content-center align-items-center"> <i class="fab fa-instagram"></i></a >        
+         <a href="https://github.com/xabdo-maker" class="icon d-flex justify-content-center align-items-center"> <i class="fab fa-github"></i></a >
+         <a href="https://www.linkedin.com/in/abddulllh-esmail-67a340299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="icon d-flex justify-content-center align-items-center"> <i class="fab fa-linkedin-in"></i></a >
         </div>
         <button type="button" class="btn button my-3">Downlode CV</button>
         </div>
@@ -65,7 +68,7 @@
     </div>
   </header>
   
-  <section id="About" class="  sec  vh-100 row d-flex align-items-center">
+  <section id="About" class="  about  vh-100 row d-flex align-items-center">
     <div class="   d-flex align-items-center ">
       <div class="col-3 mx-5">
         <img class="w-100 bo rounded-3 border border-4 border-info" src="img/photo_2025-03-19_17-42-07.jpg" alt="">
@@ -79,5 +82,48 @@
     </div>
   
   </section>
+
+
+
+
+  <section id="services" class=" vh-100 row d-flex align-items-center justify-content-around ">
+   <div class="h2-head-services  d-flex justify-content-center g-2">
+      <h2 class="fs-1">My <span class="span">Services</span></h2>
+   </div>
+    
+     <div class="container d-flex justify-content-center align-items-center justify-content-around">
+
+
+     <div class="  services-content col-3 rounded-3 border border-4 border-info p-2">
+      <div class="  ">
+     <div class="d-flex justify-content-center align-items-center fs-1"> <i class=" span fas fa-code"></i></div> 
+     <h2 class=" d-flex justify-content-center align-items-center ">Front-End</h2>
+     <p class=" text-center p-2 ">We provide professional web development services, creating fast, responsive, and user-friendly websites. Using the latest technologies like HTML, CSS, JavaScript, and Angular, we ensure high performance, security, and an exceptional user experience tailored to your business needs.</p>
+     <div class="d-flex justify-content-center align-items-center"><button type="button" class="btn  button my-3">Read More</button></div>
+    </div>
+    </div>
+
+    <div class="  services-content col-3 rounded-3 border border-4 border-info p-2">
+      <div class="  ">
+     <div class="d-flex justify-content-center align-items-center fs-1"> <i class="span fas fa-palette"></i></div> 
+     <h2 class=" d-flex justify-content-center align-items-center ">UI/UX Design</h2>
+     <p class=" text-center p-2 ">
+      We design intuitive and visually engaging UI/UX experiences that enhance usability and interaction. Using modern tools and design principles, we create seamless, accessible, and user-friendly interfaces that align with your brand’s identity and ensure a smooth, engaging digital experience.</p>
+     <div class="d-flex justify-content-center align-items-center"><button type="button" class="btn  button my-3">Read More</button></div>
+    </div>
+    </div>
+
+    <div class="  services-content col-3 rounded-3 border border-4 border-info p-2">
+      <div class="  ">
+     <div class="d-flex justify-content-center align-items-center fs-1"> <i class=" span fas fa-file-code"></i></div> 
+     <h2 class=" d-flex justify-content-center align-items-center ">Back-End</h2>
+     <p class=" text-center p-2 ">
+      We build robust and scalable back-end solutions using .NET to ensure secure, high-performance applications. Our expertise in APIs, databases, and server-side logic guarantees seamless integration, fast processing, and a reliable foundation for your web and mobile applications.</p>
+     <div class="d-flex justify-content-center align-items-center"><button type="button" class="btn  button my-3">Read More</button></div>
+    </div>
+    </div>
+   </div>
+  </section>
+  <script src="js/main.js"></script>
 </body>
 </html>
