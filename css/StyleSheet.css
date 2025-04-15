@@ -1,11 +1,15 @@
-
+* {
+    box-sizing: border-box;
+  }
 body{
     background: linear-gradient(rgb(8, 8, 29),rgb(18, 18, 84));
     height: 100vb;
-   
- overflow: hidden;
+    overflow-y: hidden;
 
 }
+
+
+
 .font{
     font-family: 'Courier New', Courier, monospace;
 }
