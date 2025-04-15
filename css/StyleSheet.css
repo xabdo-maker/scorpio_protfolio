@@ -1,8 +1,12 @@
+
 body{
     background: linear-gradient(rgb(8, 8, 29),rgb(18, 18, 84));
     height: 100vb;
  overflow: hidden;
 
+}
+.font{
+    font-family: 'Courier New', Courier, monospace;
 }
 body:hover{
     overflow-y: auto;
@@ -10,6 +14,23 @@ body:hover{
 ::-webkit-scrollbar {
     width: .1px; 
   }
+  .img{
+    height: 100vh;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: relative;
+    transition: height 1s;
+  
+  }
+  @keyframes move {
+    0%{ transform: translateY(0); }
+    100% { transform: translateY(60px); }
+}
+    
+  
 .nav-link{
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -57,3 +78,44 @@ body:hover{
 .services-content:hover{
     transform: scale(1.2);
 }
+.project{
+    background:linear-gradient(rgb(18, 18, 84),rgb(8, 8, 29));
+}
+.pro_img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15%;
+    overflow: hidden;
+    padding: 0 0;
+    position: relative;
+   
+}
+.pro_img:hover .cabtion{
+    top: 0;
+}
+.pro1{
+    height: 100%;
+    width: 300px;
+    object-fit: cover; 
+
+}
+.cabtion{
+    top: 100%;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(8, 8, 29,.3),rgba(18, 18, 84.3));
+    transition: top 1.5s;
+}
+.h22{
+  height: 100px;
+}
+
+.cont{
+    background:linear-gradient(rgb(8, 8, 29),rgb(18, 18, 84));
+}
+
+
+
