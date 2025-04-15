@@ -2,6 +2,7 @@
 body{
     background: linear-gradient(rgb(8, 8, 29),rgb(18, 18, 84));
     height: 100vb;
+   
  overflow: hidden;
 
 }
@@ -119,3 +120,8 @@ body:hover{
 
 
 
+@media (max-width: 768px) {
+    .navbar {
+      position: relative; 
+    }
+  }
